@@ -1,7 +1,5 @@
 class StaticPagesController < ApplicationController
   def home
-    @something = User.last.name
-    @table = User.all
   end
 
   def help
